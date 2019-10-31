@@ -1,0 +1,26 @@
+Current Best 3000:
+599,459,350,486,442,442,497,300,350,461,514,477,300,486,442,591,350,612,350,300,300,300,300,
+true,false,false,true,false,true,false,false,false,true,true,false,true,false,true,false,true,false,false,false,false,false,
+211.96200000001204
+
+Mutation -> Natural -> Shuffle
+
+Crossover -> Uniform
+
+Parent 1 -> Roulette
+Parent 2 -> Roulette	
+
+Current Best 100'000:
+
+100000	 B:209.1180000000124	 W:209.1180000000124
+684,503,350,300,503,503,503,397,503,397,300,628,300,452,203,570,567,350,503,524,327,300,300,
+true,false,false,true,true,false,true,true,false,false,true,true,true,false,true,false,false,true,false,false,false,true,
+209.1180000000124
+
+mutation -> naturale -> shuffle
+Cossover -> uniform
+
+P1 -> Roulette selection
+P2 -> Roulette selection
+
+	
