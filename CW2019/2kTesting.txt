@@ -17,3 +17,11 @@ Fitness minus energy modifier = 214.29200000000958
 216.9940664510356
 
 Run 2:
+2000	 B:216.0420000000122 ER: 19.38404727923554	 W:906.25 ER: 0.0
+p:15	 c:0 	 y:16	 Time Elipsed: 342s
+509,308,338,402,520,477,403,318,476,498,327,407,305,484,308,348,678,342,425,350,393,359,442,
+false,true,false,true,true,false,true,true,true,true,true,false,true,true,true,false,true,true,true,true,true,false,
+ Remaining Energy = 19.38404727923554Best Fitness = 216.13892023640838
+Fitness minus energy modifier = 216.0420000000122
+
+216.13892023640838

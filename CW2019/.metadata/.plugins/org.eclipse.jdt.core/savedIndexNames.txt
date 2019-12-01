@@ -1,0 +1,19 @@
+INDEX VERSION 1.127+H:\GitHub\ECO-CW\CW2019\.metadata\.plugins\org.eclipse.jdt.core
+761210008.index
+4209683848.index
+3793446695.index
+3456035532.index
+2522928123.index
+274384413.index
+3906818505.index
+296971228.index
+1612102918.index
+622648305.index
+1960579741.index
+1232361942.index
+4187104216.index
+3923903477.index
+4155682775.index
+1100832170.index
+1933462385.index
+4184312947.index
