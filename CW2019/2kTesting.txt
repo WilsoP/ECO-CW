@@ -1,0 +1,19 @@
+2000 Iteration Testing:
+
+Crossover -> twoPoint
+Selection1 -> Roulette
+Selection2 -> Roulette
+Mutation -> OG, Creep, Scramble
+
+Diverstity -> Sawtooth
+
+Run 1:
+p:15	 c:0 	 y:16	 Time Elipsed: 546s
+666,505,528,293,468,364,403,412,324,388,440,344,342,446,372,531,337,281,559,247,389,398,281,
+true,false,false,true,false,false,true,false,false,false,true,true,false,false,false,true,false,true,false,false,false,false,
+ Remaining Energy = 540.4132902052037Best Fitness = 216.9940664510356
+Fitness minus energy modifier = 214.29200000000958
+
+216.9940664510356
+
+Run 2:

@@ -1,5 +1,7 @@
 package ea;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 import teamPursuit.*;
 
 public class Individual {
@@ -7,7 +9,7 @@ public class Individual {
 	
 	boolean[] transitionStrategy = new boolean[22] ;
 	int[] pacingStrategy = new int[23];
-	
+	double energyRemain, outputF;
 	SimulationResult result = null;	
 	
 	public Individual() {		
@@ -24,7 +26,7 @@ public class Individual {
 		}
 		
 		for(int i = 0; i < pacingStrategy.length; i++){
-			pacingStrategy[i] = Parameters.DEFAULT_WOMENS_PACING_STRATEGY[i];
+			pacingStrategy[i] = ThreadLocalRandom.current().nextInt(300,500);;
 		}
 		
 	}
@@ -58,15 +60,34 @@ public class Individual {
 	
 	public double getFitness(){
 		double fitness = 1000;		
+		
 		if (result == null || result.getProportionCompleted() < 0.999){
 			fitness = 1000-(100* result.getProportionCompleted());
+			fitness += ((getER())/200);
 			return fitness;
 		}
 		else{				
 			fitness = result.getFinishTime();
+			fitness += ((getER())/200);
 		}
+		outputF = fitness;
 		return fitness;
 	}
+	
+	public double getER(){
+		double[] fitness = result.getEnergyRemaining();	
+		double totalER = 10000;
+	
+		if (result != null) {
+			fitness = result.getEnergyRemaining();
+			for (double e:fitness) {
+				totalER = e;
+			}
+		}
+		energyRemain = totalER;
+		return totalER;
+	}
+	
 	
 	
 	
@@ -103,6 +124,10 @@ public class Individual {
 				System.out.print("false,");
 			}
 		}
+		double er = getER();
+		double bf = getFitness();
+		System.out.println("\n Remaining Energy = "+ er + "Best Fitness = "+ bf);
+		System.out.println("Fitness minus energy modifier = "+ (bf -= (er)/200));		
 		System.out.println("\r\n" + this);
 	}
 }

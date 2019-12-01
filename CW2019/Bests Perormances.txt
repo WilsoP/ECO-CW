@@ -8,16 +8,32 @@ Mutation -> Natural -> Shuffle
 Crossover -> Uniform
 
 Parent 1 -> Roulette
-Parent 2 -> Roulette	
+Parent 2 -> Roulette
+
+Current Best 10'000:
+
+665,240,376,556,359,398,331,659,507,319,493,457,343,692,328,351,544,236,487,627,495,373,256,
+true,true,false,true,false,true,false,false,true,true,false,false,false,true,true,false,false,true,true,true,false,false,
+208.66200000001285
+
+Mutation-> og -> Scramble -> "wobble"
+
+Crossover -> Uniform, with fitness selected child
+
+p1 -> Roulette
+p2 -> Roulette
+	
 
 Current Best 100'000:
 
-100000	 B:209.1180000000124	 W:209.1180000000124
-684,503,350,300,503,503,503,397,503,397,300,628,300,452,203,570,567,350,503,524,327,300,300,
-true,false,false,true,true,false,true,true,false,false,true,true,true,false,true,false,false,true,false,false,false,true,
-209.1180000000124
 
-mutation -> naturale -> shuffle
+100000:	 B:207.0240000000138	 W:207.0240000000138
+661,443,307,348,541,381,244,512,522,566,555,320,607,427,395,573,276,602,589,279,612,466,225,
+true,true,true,false,false,true,false,true,false,true,false,false,true,true,true,false,false,true,true,false,false,false,
+207.0240000000138
+
+
+mutation -> og -> scramble -> shuffle
 Cossover -> uniform
 
 P1 -> Roulette selection
