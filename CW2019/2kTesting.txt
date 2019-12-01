@@ -107,5 +107,24 @@ Fitness minus energy modifier = 215.8150000000138
 
 Run 4 ->
 
+2000	 B:216.09300000001406 ER: 6.028220593441379	 W:232.7141990699567 ER: 2578.0398139895697
+p:15	 c:0 	 y:16	 Time Elipsed: 551s
+423,520,418,379,523,363,274,367,504,450,308,651,341,499,421,557,277,322,461,286,364,482,315,
+true,true,false,false,true,false,true,false,true,true,true,true,false,false,true,true,false,false,false,false,true,true,
+ Remaining Energy = 6.028220593441379Best Fitness = 216.12314110298126
+Fitness minus energy modifier = 216.09300000001406
+
+216.12314110298126
 
 Run 5 ->
+
+2000	 B:215.91600000001452 ER: 75.88579664664121	 W:232.403722140186 ER: 1579.3444280342082
+p:15	 c:0 	 y:16	 Time Elipsed: 931s
+424,404,348,492,518,431,342,492,360,455,465,331,308,371,643,270,262,451,317,671,430,454,411,
+true,false,true,true,true,true,false,false,true,true,true,true,false,true,true,true,false,true,true,true,true,true,
+ Remaining Energy = 75.88579664664121Best Fitness = 216.29542898324772
+Fitness minus energy modifier = 215.91600000001452
+
+216.29542898324772
+
+
