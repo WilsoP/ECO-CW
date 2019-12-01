@@ -146,8 +146,8 @@ public class EA implements Runnable{
 	
 	private Individual mutate(Individual child){
 
-		child = oGmutate(child);
-		//child = scrambleMutate(child);
+		//child = oGmutate(child);
+		child = scrambleMutate(child);
 		child = creepMutate(child);
 		return child;
 	}
