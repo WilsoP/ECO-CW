@@ -70,4 +70,42 @@ Selection 2 -> roulette
 Mutation -> OG, Creep
 Initialisation -> Random
 
+Run 1 ->
 
+2000	 B:213.11800000001014 ER: 315.7925899214485	 W:229.9783393689331 ER: 1563.0678737842727
+p:15	 c:0 	 y:16	 Time Elipsed: 340s
+685,409,379,292,461,368,322,377,450,643,511,514,419,349,329,434,406,336,419,397,294,425,286,
+true,false,true,true,false,true,true,false,false,true,false,true,false,true,true,true,false,false,false,true,false,false,
+ Remaining Energy = 315.7925899214485Best Fitness = 214.6969629496174
+Fitness minus energy modifier = 213.11800000001014
+
+214.6969629496174
+
+
+Run 2 ->
+
+2000	 B:214.16400000001383 ER: 311.60548130722054	 W:226.33879380701626 ER: 6.75876140156804
+p:15	 c:0 	 y:16	 Time Elipsed: 341s
+478,291,512,483,423,305,391,517,324,472,378,479,453,515,320,506,372,377,333,471,410,498,384,
+true,true,true,true,false,true,true,false,true,false,true,true,false,true,true,true,false,false,true,false,true,false,
+ Remaining Energy = 311.60548130722054Best Fitness = 215.72202740654993
+Fitness minus energy modifier = 214.16400000001383
+
+215.72202740654993
+
+Run 3 ->
+
+2000	 B:215.8150000000138 ER: 6.232144500700894	 W:239.83155285591255 ER: 3469.310571179785
+p:15	 c:0 	 y:16	 Time Elipsed: 344s
+439,452,496,428,497,447,513,238,446,532,273,402,424,305,514,526,530,361,330,294,333,466,311,
+true,false,true,false,false,false,true,true,false,false,false,true,true,true,true,true,false,false,true,true,false,true,
+ Remaining Energy = 6.232144500700894Best Fitness = 215.8461607225173
+Fitness minus energy modifier = 215.8150000000138
+
+215.8461607225173
+
+
+Run 4 ->
+
+
+Run 5 ->
